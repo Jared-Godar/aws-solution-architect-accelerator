@@ -538,7 +538,114 @@
 
 ### AWS Well-Architected Framework
 
-- 
+- Best practices
+- Secure
+- High performing
+- Resilient
+- efficient
+- Sustainable
+- Cloud-native way
+- consistent approach to implementing design principles over six pillars
+- Well-architected tool
+  - Compares to best practices
+- Pillars
+  - Operational Excellence
+    - Running and monitor systems to deliver business value and to continually improve supporting processes and procedures
+    - Automate changes
+    - Response to events
+    - Defines standard operating procedures
+  - Security
+    - Confidentiality
+    - Integrity of data
+    - Privilege management
+    - Detect events
+  - Reliability
+    - Prevent and quickly recover from failures
+    - Recovery planning
+    - Change management
+  - Performance Efficiency
+    - IT and computing resources are used efficiently to meet system requirements
+    - Right resource types and sizes
+    - Monitor and adjust
+  - Cost Optimization
+    - Avoid unnecessary costs
+    - Scale to meet business needs without overspending
+    - Right-sizing instances
+    - Increasing elasticity
+    - Choosing the right pricing model
+    - Optimizing storage
+  - Sustainability
+    - Minimize environmental impact
+
+### Cloud Adoption Framework (AWS CAF)
+
+- Migrating to the cloud is a process
+- Migrating applications takes effort
+- Successful cloud migration require expertise
+- Harness different perspectives
+- Ensure you have the right talent
+- Accellerating the path to successful cloud adoption
+- Advice to organizations for smooth transition to AWS
+- Six areas of focus called perspective
+  - Business Capabilities
+    - Business
+      - Ensures IT aligns with business
+      - Creates strong business case for cloud adoption
+      - Ensure business aligns with IT
+    - People
+      - Change management strategy
+      - Evaluate organizational structures and roles
+      - Evaluate new skill and process requirements
+      - Identify gaps
+      - Prioritize training
+      - HR, staffing, managers
+    - Governance
+      - Skills and processes align IT ad business practices
+      - Ensure business values are maximized and risks are minimized
+      - Measure business outcomes
+      - CIO, program manager, enterprise architect, BA
+  - Technical Capabilities
+    - Platform
+      - Implement new solutions in the cloud
+      - Migrate on-prem to cloud
+      - Understand and communicate structure of IT services and their relationships
+      - Describe the architecture of the target state environment
+      - CTO, IT managers, solutions architects
+    - Security
+      - Meets security objectives for visibility, audits, control, and agility
+      - Structure the selection of security controls
+      - CISO, IT security managers, IT security analysts
+    - Operations
+      - Enable, run, use, operate, and recover IT workloads
+      - Align with and support business operations
+      - Define operating procedures
+      - IO operation managers
+- Each perspective identifies gaps in skills and processes
+- Use inputs as basis for creating action plan
+- Guid an organization's change management
+- Keep on track towards desired outcomes
+
+### Case Studies
+
+- Benefits of customer use cases
+- Inspire confident
+- Major operational change
+- 49s less compelling than story from similar cstomer
+- [AWS Customer Success](http://aws.amazon.com/solutions/case-studies/)
+
+### Other Resources
+
+- AWS SOlutions and AWS SOlutions apace
+- Vetted, technical reference implementations designed to help customers solve common problems and uild faster
+- AWS Competency Partner Solutions
+- SOlution Briefs
+- [AWS Quick Starts](http://aws.amazon.com/quickstart/)
+  - Accelereate design solution
+  - [ ] Find AWS Quick Start for Static web page
+
+### Proposed Architecture
+
+![proposed_architecture](images/proposed_architecture.png)
 
 ---
 
