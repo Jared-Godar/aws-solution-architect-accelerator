@@ -119,4 +119,3 @@ Short code creates 37 resources and 289 lines of YAML
 
 - Built on top of CloudFormation
 - Makes CloudFormation templates
-- 

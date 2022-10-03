@@ -643,6 +643,174 @@
   - Accelereate design solution
   - [ ] Find AWS Quick Start for Static web page
 
+---
+
+## Presenting AWS Solutions to Customers
+
+### Phases
+
+- Discovery
+  - Understanding the customer challenges
+  - Goal: understand business challenges
+  - Dive deep
+  - Ask quality, opening ended questions
+  - Familiarize yourself with the customer's business
+    - Business
+    - Business model
+    - Mission
+    - Vision
+    - Leadership
+    - History
+    - Community engagement
+  - Market segment
+    - Laws, regulations, compliance
+  - Industry
+    - Trends
+    - Competitors
+    - Customers
+  - Recent news
+    - Customer
+    - Competitor
+    - Political
+      - Directly or indirectly impact
+  - Research company relationship with AWS
+    - How long
+    - Account reps
+    - Current state of adoption
+    - Products / services currently used
+- Presenting the solution
+  - Whiteboarding
+- Delivering a POC
+  - Evaluating the solution in the customer's environment
+- Ask targeted, open-ended questions
+  - What kind of issues are you running into?
+  - five whys?
+    - Framework to dive deeper and find root causes
+    - Broad and general down to specifics
+    - General desire to increase performance
+      - Why is it going slowly
+      - Why haven't you provisioned more resources
+- Whiteboarding
+  - Summarize and document the customer's business challenges
+  - Keep track of conversations
+  - Illustrate workflows
+  - Set concrete plans for next steps
+
+### Handling Objections
+
+- Address objections before moving forward
+- Often based on misconceptions, not factual data
+- Most decisions made emotionally, not logically
+- Address emotional
+- Steps
+  - Connect
+    - Identify with customer point of view
+  - Condense
+    - Identify the core concern
+  - Continue
+    - Taking steps towards resolution
+- Example
+  - Im concerned about security...
+  - I understand... Specific issues?
+  - DDoD and lack of direct access
+  - Can go over that
+- Best prActices
+  - Data-driven approach
+    - Metrics
+  - Use case studies
+  - Dive deep
+    - Look for root concern
+    - Tailor response
+  - Have backbone when defending solutions proposed
+    - Be confident
+    - If you don't know, say you will find soon
+  - Keep momentum going
+    - Objections natural part of the process
+  - Sample responses
+    - Security
+      - You've definitely invested in this - our top priority, higher security posture with  greater agility; inherit all the
+    - Cost or cost savings
+      - reduce total cost of ownership
+      - Continuously optimized and predictable spend
+      - No longer overprovision infrastructure for peak demand
+      - GE Oil and gas reduced TCO 52%
+    - Scalability and Response
+      - Build cloud foundation team
+      - Create guardrails AWS control tower
+        - Security
+        - Availability
+        - Reliability
+        - Compliance
+
+### Keys
+
+- Prepare for success
+  - 3 hours prep / 1 hour presentation
+  - FAQ each service phase
+- Anticipate
+  - Questions
+  - Concerns
+  - Objections
+- Differentiate
+- Stay on message
+  - Don't lose track of goals
+  - Confidently address
+- Avoid
+  - Definitely
+  - Never
+  - Guaranteed
+  - Don't overpromise
+  - Don't use acronym's or technical jargon
+  - When in doubt spell it out
+  - Don't focus on technology, especially early
+  - Listen to and learn business
+  - Don't focus on short / mid term
+  - Don't read slides
+
+### Delivering Proof of Concept
+
+- Show them their applications running on our infrastructure
+- Small-scale, practical example of proposed solution
+- Evaluation mechanism
+- Don't just demonstrate AWS services
+- Focus on business requirements
+- Determine what success looks like
+  - Clear goals and scopes
+- Construct or consult as necessary
+- Collect the following info
+  - Network and security
+  - Application code
+  - Databases
+  - Data
+- Requires skills and resources
+- Build on AWS
+- Migrate data
+- Validation and testing
+- Need Cost of running POC resources
+- Training courses
+  - Self-paced labs
+  - Wide variety of services and features
+  - APN portal
+- Quick Starts
+  - Resource to design solution
+  - Best practice designs
+  - Rapidly deploy and configure AWS services
+  - Launch, configure, and deploy AWS services
+  - Reduce manual procedures into a few steps
+  - Check back frequently for updates
+- Partner Opportunity Acceleration (POA) Program
+  - Promotional credit
+  - Co-invest
+  - Cash reimbursements
+  - Must request before POC
+  - Co-fund migration / POC
+  - Proposals following best practices IAM framework
+  - Expectations and requirements
+
+---
+
+## Looking ahead
+
 ### Proposed Architecture
 
 ![proposed_architecture](images/proposed_architecture.png)
