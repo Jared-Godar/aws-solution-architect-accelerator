@@ -106,7 +106,7 @@
   - Flexibility
     - Many instance types
   - Integrated
-    - Rith other AWS sercices
+    - With other AWS services
   - Reliable
     - High availability
   - Secure
@@ -811,13 +811,244 @@
 
 ## Looking ahead
 
+### Planning the Migration
+
+- Pleased with POC
+- Migration and beyond
+- Remain engaged post migration
+- Migration Process
+  - Assessment
+    - Identify readiness and potential business outcomes
+  - Readiness and Planning
+    - Analyze environment
+    - Determine migration strategies
+    - Create well-architected landing zone
+  - Migration and modernization
+    - Design, migrate, and validate
+    - Automatic or manual
+    - Migrate data
+    - Modernize
+- Not discrete phases, iterative
+- MVP Concept
+  - Encourage adoption process
+  - Progress from the start
+  - Avoid big bang solution
+  - Start with something simple and add
+  - Value at end vs. getting value at many points
+
+![migration](images/migration.png)
+
+![replatform](images/replatform.png)
+
+### Going to Production
+
+- Best Practices
+  - Involve AWS account team
+    - Solutions Architect
+    - Technical Account manager
+  - Customer-specific regulatory requirements
+    - Checklists from AWS
+    - Customers responsibility
+    - AWS Guidance
+    - Enterprise support
+      - technical account manager
+  - Well-architected review
+    - Periodically review
+    - APN partners or customers
+    - Architectural guidance
+    - Review workloads consistently
+    - Automated tool
+    - Use results for improvement
+    - AWS Well-architected tool
+      - Available in AWS console
+      - Identify workload
+      - ANswer questions
+      - Compare answers to pillars
+      - Diashboard, report, and videos
+
+### Modernization
+
+- Retire expensive legacy solutions
+- Reduce TCO, improve cost optimization
+- Gain agility through automation
+- Free resources to focus on innovation
+- Modernization architectures
+  - Containers
+    - Single way to package application:
+      - Code
+      - Configuration
+      - dependencies
+    - Single object
+    - Share an operating system
+    - Run aws resource-isolated processes
+    - AWS offers resource and orchestration services
+    - Use cases
+      - Microservers
+      - Batch processing / ETL jobs
+      - Scale ML models
+      - Standardize how code is deployed - hybrid application
+      - Package entire applications and move to cloud
+      - Platform as a service
+  - Serverless
+    - ![serverless](images/serverless.png)
+  - Data Lakes and Analytics
+    - ![dl1](images/dl1.png)
+    - ![dl2](images/dl2.png)
+    - Big data
+      - Spark
+      - Hadoop
+      - Amazon EMR
+      - Managed service
+    - Interactive analytics
+      - Amazon athena
+      - SQL in S3 and glacier
+      - Serverless - no infrastructure
+      - Pay only for queries run
+    - Date warehouseing
+      - Amazon redshift
+      - Complex analytic queries
+      - Rapidly query exabytes of structured or unstructured data in s3
+    - Realtime
+      - Kinesis
+      - Data streaming
+      - IoT
+      - Website clicks
+      - Poocess and analyze data as it arrives and respond in real time
+    - Operational Analytics
+      - Open search service
+      - Search, explore, filter, aggregate, and visualize data in near realtime
+      - Replaces Elasticsearch service
+      - Easy to use APIs 
+      - Available, scalable, secure
+    - Dashboards and visualizations
+      - QuickSight
+      - Dashboards for any browser or mobile device
+    - Catalog and secure
+      - AWS lake formation
+      - Automates many of the steps in building a data lake
 ### Proposed Architecture
 
 ![proposed_architecture](images/proposed_architecture.png)
 
+--- 
+
+## AWS Partner Network Resources
+
+### APN
+
+- Benefits
+  - Leverage AWS innovation
+  - Access tools and resources
+    - Build for self or customer
+  - Expand addressable market
+  - More innovation at a faster pace
+  - Get trained and certified
+    - Free / reduced cost
+  - Promote business
+  - Highlight expertise
+  - Maximize opportunities with AWS
+  - Increase visibility to AWS field teams and customers
+  - Save time and money with tools and resources
+- Partner paths
+  - Growing breadth and depth of services
+  - Addressses evolving capabilities and business models of partners
+  - Creates curated experience based on specific types of cstomer offerings
+  - Provides more flexibility in the ways to engage with AWS
+  - Navigate to curated resources, benefts, and programs aligned to customer offerings
+  - Offering-based model
+  - 5 paths
+    - Software (new name for independent software vendor (ISV))
+    - Hardware- devices that work with AWS
+    - Services - consulting partners
+    - Training
+    - Distribution - invite-only
+    - APN Partner Central / AWS Partner paths
+      - Technical and non technical training
+      - Support
+  - 5 stages
+    - Registered
+    - Enrolled
+    - Confirmed
+    - Validated
+    - Differentiated
+- AWS Partner resources website
+  - Tools and resources
+- Partner training resources
+  - Deepen skills to better serve customers
+  - Digital and classroom training
+  - aws.amazon.com/parthers/training
+  - Paths
+    - AWS Technical Professional
+      - AWS Partner accreditation (technical)
+      - Cloud Economics
+      - Cloud Practitioner
+      - Well-Architected Best Practices (Technical)
+      - Certified Solutions Architect Associate
+      - Cloud Adoption Framework
+      - Cloud Advisory
+      - IoT
+      - SAP
+      - ML
+      - Analytics
+      - Containers
+    - AWS Business Professional
+    - AWS Professional Services
+- Partner team
+  - Partner Development Representative (PDR)
+    - First point of contact
+    - Helps onboarding
+  - Partner Development Manager (PDM)
+    - Manages relationship between you and AWS
+    - Go to for go to market and business development support
+  - Alliance lead
+    - Person at your company who manages the AWS relationship
+
+### Summary II
+
+- Cloud value proposition
+- Services and functionality
+- SOlving business challenges
+- Well architected framework
+- Present solutions
+- POCs
+- Guide towards modernization
+- APN resources
+
 ---
 
 ## Introduction to AWS AOrganizations (6 min)
+
+- Manual account creation time consuming
+- Organizations allows you to create accounts programatically
+- Consolidated billing
+  - Compliance
+  -OU - organization unit
+    - Container of accounts
+    - Connected to root
+    - 1:1
+    - Attach policies to OUs or accounts
+- Policy-based account management
+- Group-based account management
+- APIs that automate account management
+- Consolidated billing
+- Still must use IAM policies to control access
+  - Groups
+  - Users
+  - Roles
+- Organizations
+  - Service control policies
+  - Affect all users, roles, and groups in the organization
+- Create Organization - master account
+  - Ask another account to join as member account
+  - Create organization units
+  - Create service control policies
+  - Test restrictions
+  - Access
+    - Management console
+    - CLI
+    - SKDs
+    - HTTPS query API
+    - 
 
 ---
 
